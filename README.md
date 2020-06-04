@@ -1,6 +1,8 @@
 # High Concurrency Geocoder
 
-Serialize JSON responses from IN Geocoder using Goroutines for concurrency
+Creates a single output CSV using State of Indiana Public Geocoder using Goroutines for concurrency
+
+**NOTE**: This provides no support for addresses outside of Indiana
 
 # Usage
 
@@ -29,6 +31,7 @@ Ensure conformity to ```Gofmt```
 
 ```shell
 $ go install
+$ go build
 
 ```
 
