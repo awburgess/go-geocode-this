@@ -1,4 +1,4 @@
 
 geocodeURL: 'https://gis.in.gov/arcgis/rest/services/Indiana_Composite_Locator/GeocodeServer/geocodeAddresses'
-geocodePath: '/data'
+geocodePath: '/Users/aburgess/Documents/go-test'
 concurrentRoutines: 8
